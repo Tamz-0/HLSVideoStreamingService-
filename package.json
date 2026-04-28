@@ -4,7 +4,7 @@
   "description": "A distributed HLS video streaming platform with microservices architecture",
   "main": "index.js",
   "scripts": {
-    "start": "docker-compose up",
+    "start": "echo All services must be deployed individually on Railway. See README.",
     "dev": "docker-compose up --build",
     "stop": "docker-compose down",
     "clean": "docker-compose down -v",
