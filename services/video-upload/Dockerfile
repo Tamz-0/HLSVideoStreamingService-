@@ -16,7 +16,7 @@ COPY package*.json ./
 ENV SHARP_IGNORE_GLOBAL_LIBVIPS=1
 ENV npm_config_sharp_libvips_local_prebuilds=0
 
-RUN npm ci --only=production
+RUN npm install --omit=dev
 
 COPY . .
 
